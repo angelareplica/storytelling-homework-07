@@ -59,7 +59,7 @@ function ready(datapoints) {
     .key(d => d.Year)
     .entries(datapoints)
 
-  console.log('nested data looks like', nested)
+  // console.log('nested data looks like', nested)
 
   // Adding svgs for every yr
 
@@ -148,3 +148,4 @@ function ready(datapoints) {
         .call(yAxis)
     })
 }
+export { xPositionScale, yPositionScale, line_us, line_jp, width, height }
